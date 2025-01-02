@@ -49,4 +49,5 @@ A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for doc
 
 ## License
 
-This theme is licensed under the [MIT License](LICENSE).
+This theme is licensed under the GNU General Public License v2 or later (GPLv2+). 
+See the [LICENSE](LICENSE) file for details.
