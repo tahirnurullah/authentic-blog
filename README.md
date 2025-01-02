@@ -17,12 +17,19 @@ Authentic Blog is a versatile WordPress theme ideal for blogs, portfolios, magaz
 
 ## Installation
 
-1. Download the theme ZIP file.
-2. Go to your WordPress dashboard.
-3. Navigate to **Appearance > Themes**.
-4. Click **Add New** and then **Upload Theme**.
-5. Select the ZIP file and click **Install Now**.
-6. Activate the theme.
+To download the latest version of the **Authentic Blog** theme, follow these steps:
+
+1. Visit the [Releases](https://github.com/yourusername/authentic-blog/releases) page of the repository.
+2. Locate the latest release.
+3. Download the file named **`authentic-blog.zip`**.
+
+Once you have the theme file:
+
+1. Go to your WordPress dashboard.
+2. Navigate to **Appearance > Themes**.
+3. Click **Add New** and then **Upload Theme**.
+4. Select the ZIP file and click **Install Now**.
+5. Activate the theme.
 
 ## Usage
 
