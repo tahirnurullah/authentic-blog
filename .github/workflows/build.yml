@@ -1,0 +1,35 @@
+name: Build and Rename ZIP File
+
+on:
+  release:
+    types:
+      - created
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      # Set up the environment (if needed)
+      - name: Set up Node.js (or other tools if required)
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      # Create a ZIP file (customize based on your project)
+      - name: Create ZIP file
+        run: |
+          mkdir output
+          zip -r output/authentic-blog.zip .
+
+      # Upload the ZIP file as a release asset
+      - name: Upload ZIP file to release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: output/authentic-blog.zip
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
