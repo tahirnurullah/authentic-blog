@@ -30,16 +30,16 @@ You can customize the theme by going to **Appearance > Customize**. Here you can
 
 ## Frequently Asked Questions
 
-**Q: Is this theme compatible with all WordPress plugins?**  
+**1: Is this theme compatible with all WordPress plugins?**  
 A: Authentic Blog supports most WordPress plugins, but compatibility may vary for highly specialized or outdated plugins.
 
-**Q: Can I translate this theme?**  
+**2: Can I translate this theme?**  
 A: Yes! Authentic Blog is fully translation-ready and includes a `.pot` file for easy localization.
 
-**Q: Does the theme support Gutenberg blocks?**  
+**3: Does the theme support Gutenberg blocks?**  
 A: Absolutely! Authentic Blog is fully compatible with the Gutenberg block editor and includes custom block patterns.
 
-**Q: Where can I find documentation?**  
+**4: Where can I find documentation?**  
 A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for documentation and support.
 
 ## Changelog
