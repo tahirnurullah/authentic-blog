@@ -1,0 +1,21 @@
+# Ignore WordPress core files
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/backups/
+
+# Ignore theme-specific files
+*.log
+*.bak
+*.swp
+
+# Ignore compiled files
+node_modules/
+npm-debug.log
+dist/
+
+# Ignore macOS files
+.DS_Store
+
+# Ignore Windows files
+Thumbs.db
