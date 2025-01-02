@@ -50,8 +50,8 @@ A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for doc
 
 == Changelog ==
 
-**1.0 (Updated: 2025-01-02):**
-- Initial release of Authentic Blog.
+**0.9.1:**
+- Beta release.
 
 == License ==
 

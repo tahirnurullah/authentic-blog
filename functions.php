@@ -21,3 +21,7 @@ require_once get_parent_theme_file_path( 'inc/admin-features.php' );
 /** Theme block styles and patterns */
 require_once get_parent_theme_file_path( 'inc/blocks/styles/block-styles.php' );
 require_once get_parent_theme_file_path( 'inc/blocks/patterns/block-patterns.php' );
+
+/** Activate Plugins */
+// TN GitHub Theme Updater Plugin
+require_once get_parent_theme_file_path( 'inc/activate-plugins/activate-github-theme-updater.php' );
