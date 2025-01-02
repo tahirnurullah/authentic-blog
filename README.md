@@ -19,7 +19,7 @@ Authentic Blog is a versatile WordPress theme ideal for blogs, portfolios, magaz
 
 To download the latest version of the **Authentic Blog** theme, follow these steps:
 
-1. Visit the [Releases](https://github.com/yourusername/authentic-blog/releases) page of the repository.
+1. Visit the [Releases](https://github.com/tahirnurullah/authentic-blog/releases) page of the repository.
 2. Locate the latest release.
 3. Download the file named **`authentic-blog.zip`**.
 
