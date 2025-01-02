@@ -1,0 +1,218 @@
+/* rtl.css for Authentic Blog Theme */
+
+/* Reverse float properties */
+.alignright {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+.alignleft {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+
+/* Reverse text alignment */
+body {
+    direction: rtl;
+    text-align: right;
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto 5px auto;
+    text-align: center;
+}
+
+/* Reverse margins and paddings */
+.wp-caption {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption.alignleft {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption.alignright {
+    margin: 5px 20px 20px 0;
+}
+
+/* Admin Edit Button */
+.tn-admin-edit-button {
+    left: auto;
+    right: 0px;
+}
+.tn-nav .tn-admin-edit-button {
+    right: -35px;
+}
+.tn-logo-wrap .tn-admin-edit-button {
+    left: -40px;
+    right: auto;
+}
+.tn-blog-sidebar-wrap .tn-admin-edit-button {
+    right: -10px;
+}
+.tn-footer-credit-col .tn-admin-edit-button {
+    right: -40px;
+}
+.tn-page-header .tn-admin-edit-button {
+    right: 40px;
+}
+
+/* Secondary menu adjustments */
+.tn-secondary-menu li:last-child {
+    padding: 0px 10px;
+    padding-left: 0px;
+}
+.tn-secondary-menu li:first-child::after {
+    content: none;
+}
+.tn-secondary-menu li:last-child::after {
+    content: "|";
+}
+
+/* Search Option from Header */
+.tn-search-btn {
+    padding-right: 4px;
+    padding-left: 0px;
+}
+.tn-search-modal {
+    left: 8px;
+    right: auto;
+}
+.tn-search-modal .tn-submit-wrap {
+    left: 5px;
+    right: auto;
+}
+.tn-search-modal .tn-close-search {
+    left: -10px;
+    right: auto;
+}
+
+/* Navigation menu adjustments */
+.tn-nav ul {
+    text-align: right;
+}
+.tn-nav ul li a {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.tn-nav .menu-item-has-children::after {
+    margin-left: 0px;
+    margin-right: 6px;
+}
+.tn-nav .menu-item-has-children .sub-menu li.menu-item-has-children {
+    padding-right: 0px;
+    padding-left: 8px;
+}
+.tn-nav .tn-main-menu > .menu-item-has-children:nth-last-child(-n+3) .sub-menu {
+    left: 0px;
+    right: auto;
+}
+
+/* Adjust sub-menu positions */
+.tn-nav .tn-main-menu > .menu-item-has-children:nth-last-child(-n+3) .sub-menu {
+    right: auto;
+    left: 0px;
+}
+.tn-nav .menu-item-has-children .sub-menu .sub-menu .sub-menu, 
+.tn-nav .tn-main-menu > .menu-item-has-children:nth-last-child(-n+3) .sub-menu .sub-menu {
+    right: auto;
+    left: 220px;
+}
+
+/* Form fields */
+input,
+textarea {
+    text-align: right;
+}
+.tn-button, 
+.wp-element-button, 
+button, 
+[type="button"], 
+[type="reset"], 
+[type="submit"], 
+.comment-reply-title small a {
+    text-align: center;
+}
+
+/* Post Loop, Archive, Page, Section, Single, ETC. */
+.tn-section-heading {
+    padding-right: 0px;
+}
+
+span.tn-tag-text-wrap {
+    display: inline-flex;
+    column-gap: 4px;
+}
+.tn-post-tags-in-loop .dashicons, 
+.tn-post-tags-in-loop .dashicons-before:before {
+    top: 3px;
+}
+
+.tn-not-found.tn-not-found-search {
+    padding-left: 0px;
+    padding-right: 22px;
+    border-left: 0px;
+    border-right: 8px solid red;
+}
+
+.tn-post-nevigation.tn-post-next, 
+.navigation.comment-navigation .nav-next {
+    margin-left: 0px;
+    margin-right: auto;
+}
+
+.comment-author.vcard .avatar {
+    float: right;
+    margin-right: 0px;
+    margin-left: 15px;
+}
+.comment-reply-title small a {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+/* Pagination */
+.tn-blog-posts .nav-links {
+    direction: rtl;
+}
+
+/* Sidebar adjustments */
+.tn-sidebar {
+    text-align: right;
+}
+
+/* Footer adjustments */
+.tn-footer {
+    text-align: right;
+}
+.tn-footer-sidebar .wp-block-search button {
+    border-radius: 6px 0px 0px 6px;
+    margin-right: 0px;
+}
+.tn-footer-sidebar .wp-block-search input {
+    border-radius: 0px 6px 6px 0px;
+}
+
+@media only screen and (max-width: 980.98px) {
+    .tn-section.tn-header-wrap .tn-menu-wrap .tn-mobile-menu-btn.tn-menu-open {
+        position: absolute;
+        right: 15px;
+        left: auto;
+    }
+    .tn-nav ul li a {
+        padding: 16px 30px 16px 0px;
+        margin-right: 0px;
+        margin-left: 48px;
+    }
+    .tn-nav .menu-item-has-children .sub-menu li a,
+    .tn-nav .menu-item-has-children .sub-menu li li a,
+    .tn-nav .menu-item-has-children .sub-menu li li li a {
+        padding-right: 40px;
+        padding-left: 0px;
+    }
+    .tn-nav .menu-item-has-children .sub-menu li li a {
+        padding-right: 45px;
+    }
+    .tn-nav .menu-item-has-children .sub-menu li li li a {
+        padding-right: 50px;
+    }
+}
