@@ -2,7 +2,7 @@
 /*
 Plugin Name: AB Theme Updater
 Description: Handles updates for the Authentic Blog theme.
-Version: 1.2
+Version: 1.0
 Author: Tahir Nurullah
 Author URI: https://tahirnurullah.com/
 */

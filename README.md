@@ -25,11 +25,11 @@ To download the latest version of the **Authentic Blog** theme, follow these ste
 
 Once you have the theme file:
 
-1. Go to your WordPress dashboard.
-2. Navigate to **Appearance > Themes**.
-3. Click **Add New** and then **Upload Theme**.
-4. Select the ZIP file and click **Install Now**.
-5. Activate the theme.
+1. Log in to your WordPress admin panel.
+2. Navigate to **Appearance → Themes**.
+3. Click **Add New Theme** and then **Upload Theme**.
+4. Choose the ZIP file you download from GitHub and click **Install Now**.
+5. After installation, click **Activate** to enable the theme.
 
 ## Usage
 
@@ -51,7 +51,7 @@ A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for doc
 
 ## Changelog
 
-### Version 0.9
+### Version 0.9.8
 - Beta release.
 
 ## License

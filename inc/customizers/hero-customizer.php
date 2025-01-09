@@ -18,7 +18,7 @@ function tn_hero_section_customizer( $wp_customize ) {
     ) );
     $wp_customize->add_control( 'tn_hero_title_ctrl', array(
         'label' => __( 'Hero Title', 'authentic-blog' ),
-        'description' => __( 'Set the title for the hero section. You can use the "span" tag within the title text to highlight specific words or phrases, creating a styled effect in the hero area. For example, see the current design or default title text for reference. (Support only "span" tag).', 'authentic-blog' ),
+        'description' => __( 'Set the title for the hero section (support "span" tag).', 'authentic-blog' ),
         'section' => 'tn_hero_sec',
         'settings' => 'tn_hero_title_set',
         'type' => 'textarea',

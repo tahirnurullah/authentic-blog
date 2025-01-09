@@ -18,7 +18,7 @@ function tn_blog_setup_customizer( $wp_customize ) {
     ) );
     $wp_customize->add_control( 'tn_blog_title_ctrl', array(
         'label' => __( 'Blog Title', 'authentic-blog' ),
-        'description' => __( 'Set the title for the blog posts section, top of the area. (Support only "span" tag).', 'authentic-blog' ),
+        'description' => __( 'Set the title for the blog posts section. (Support "span" tag).', 'authentic-blog' ),
         'section' => 'tn_blog_sec',
         'settings' => 'tn_blog_title_set',
         'type' => 'text',
@@ -33,7 +33,7 @@ function tn_blog_setup_customizer( $wp_customize ) {
     ) );
     $wp_customize->add_control( 'tn_blog_grid_column_ctrl', array(
         'label' => __( 'Blog Grid & Columns', 'authentic-blog' ),
-        'description' => __( 'Configure the layout for the "Blog Posts" section by selecting the number of columns: (1) "3 Columns: Blog Posts + Sidebar" (Default) displays two columns for blog posts and one column for the sidebar. (2) "2 Columns: Blog Posts + Sidebar" shows a single column for blog posts and one for the sidebar. (3) "3 Columns: Only Blog Posts (No Sidebar)" dedicates all three columns to blog posts, removing the sidebar.', 'authentic-blog' ),
+        'description' => __( 'Choose the layout for displaying blog posts.', 'authentic-blog' ),
         'section' => 'tn_blog_sec',
         'settings' => 'tn_blog_grid_column_set',
         'type' => 'select',
@@ -52,7 +52,7 @@ function tn_blog_setup_customizer( $wp_customize ) {
     ) );
     $wp_customize->add_control( 'tn_blog_publish_date_ctrl', array(
         'label' => __( 'Publish Date Format', 'authentic-blog' ),
-        'description' => __( 'Choose how the publish date is displayed for posts: (1) "Normal date format" shows the full date, e.g., "05 August 2024". (2) "Time ago format" displays a relative time, e.g., "3 hours ago". (3) "Time ago with normal date format" shows a relative time initially, e.g., "3 hours ago", but switches to the full date after 12 months, e.g., "05 August 2024".', 'authentic-blog' ),
+        'description' => __( 'Select how the publish date is displayed.', 'authentic-blog' ),
         'section' => 'tn_blog_sec',
         'settings' => 'tn_blog_publish_date_set',
         'type' => 'select',
@@ -100,7 +100,7 @@ function tn_blog_setup_customizer( $wp_customize ) {
     ) );
     $wp_customize->add_control( 'tn_post_excerpt__ctrl', array(
         'label' => __( 'Show Post Excerpt', 'authentic-blog' ),
-        'description' => __( 'Show post excerpt (content summary) on the post item from Blog Loop.', 'authentic-blog' ),
+        'description' => __( 'Show post excerpt on the post item from Blog Loop.', 'authentic-blog' ),
         'section' => 'tn_blog_sec',
         'settings' => 'tn_post_excerpt__set',
         'type' => 'checkbox',

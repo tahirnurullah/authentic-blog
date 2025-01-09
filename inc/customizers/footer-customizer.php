@@ -20,7 +20,7 @@ function tn_footer_credit_customizer( $wp_customize ) {
     // Customizer Form: Adding controls and forms to the theme customizer area
     $wp_customize->add_control( 'tn_footer_credit_ctrl', array(
         'label' => __( 'Footer Credit Information', 'authentic-blog' ),
-        'description' => __( 'Please provide the footer credit text for the bottom footer area (support only "a" tag).', 'authentic-blog' ),
+        'description' => __( 'Please provide the footer credit text for the bottom footer area (support "a" tag).', 'authentic-blog' ),
         'section' => 'tn_footer_credit_sec', // Link to the section
         'settings' => 'tn_footer_credit_set', // Link to the setting
         'type' => 'textarea',

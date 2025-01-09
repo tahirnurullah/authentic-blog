@@ -5,7 +5,7 @@ Author: tahirnurullah
 Author URI: https://tahirnurullah.com/
 Description: Authentic Blog is a versatile WordPress theme ideal for blogs, portfolios, magazines, or business sites. Its clean, minimalist design highlights your content, while features like custom headers, menus, logos, footer widgets, and theme options in the customizer ensure flexibility. Fully compatible with Gutenberg and translation-ready, it’s optimized for performance and offers a seamless experience for creators and visitors alike.
 Tags: two-columns, right-sidebar, featured-images, theme-options, threaded-comments, custom-header, custom-menu, custom-logo, footer-widgets, style-variations, translation-ready, blog, portfolio, news
-Version: 0.9.61
+Version: 0.9.8
 Requires at least: 6.7
 Tested up to: 6.7
 Requires PHP: 7.2
@@ -13,7 +13,7 @@ License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: authentic-blog
 
-Copyright 2025 Tahir Nurullah (me@tahirnurullah.com)
+Copyright 2025 Tahir Nurullah (admin@tahirnurullah.com)
 Authentic Blog is distributed under the terms of the GNU GPL v2 or later.
 */
 
@@ -436,7 +436,7 @@ button,
     font-size: 14px;
     border: 1px solid transparent;
     border-radius: 6px;
-    padding: 5px 10px;
+    padding: 5px 10px 3.5px;
     transition: all .2s linear;
 }
 .tn-button-simple {
@@ -612,6 +612,7 @@ button,
 }
 .tn-section.tn-header-wrap {
     padding: 10px 0px;
+    border-bottom: 1px solid transparent;
     position: relative;
     z-index: 3;
 }
@@ -1007,6 +1008,7 @@ button,
 .tn-blog-posts .nav-links,
 .tn-sidebar .wp-block-tag-cloud {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -1014,7 +1016,6 @@ button,
     row-gap: 20px;
 }
 .tn-blog-posts .nav-links {
-    flex-wrap: wrap;
     row-gap: 12px;
 }
 .tn-blog-posts .page-numbers:not(.dots),
@@ -1041,6 +1042,12 @@ button,
 .tn-sidebar:has(.wp-block-heading),
 .tn-sidebar:last-child {
     margin-bottom: 0px;
+}
+.tn-sidebar:has(.wp-block-group) {
+	margin-bottom: 80px;
+}
+.tn-sidebar:has(.wp-block-group):last-child {
+	margin-bottom: 0px;
 }
 .tn-sidebar .wp-block-heading,
 .tn-sidebar-heading {
@@ -1326,7 +1333,7 @@ button,
 }
 .tn-author-info-wrap-sp {
     display: grid;
-    grid-template-columns: 160px 1fr;
+    grid-template-columns: 200px 1fr;
     grid-template-rows: auto;
     grid-auto-columns: 1fr;
     place-items: stretch stretch;
@@ -1334,7 +1341,9 @@ button,
     column-gap: 30px;
     row-gap: 30px;
 }
-.tn-author-avatar-wrap-sp {
+.tn-author-avatar-wrap-sp img {
+	height: auto;
+	min-height: 180px;
     border-radius: 6px;
 }
 .tn-author-name-sp {
@@ -1557,6 +1566,7 @@ button,
 .tn-footer-main {
     padding-top: 100px;
     padding-bottom: 30px;
+    border-top: 1px solid transparent;
 }
 .tn-row.tn-footer-row {
     grid-template-columns: 1.2fr .8fr .8fr 1.2fr;
@@ -1978,6 +1988,9 @@ button,
         padding-left: 30px;
         padding-right: 30px;
     }
+    .tn-author-info-wrap-sp {
+        grid-template-columns: 180px 1fr;
+    }
     /* Footer */
     .tn-footer-main {
         padding-bottom: 40px;
@@ -2291,6 +2304,8 @@ button,
     --color-light: #FFFFFF;
     --color-dark: #222222;
     --color-gray: #C4C4C4;
+
+    --color-gray-light: #E9E9E9;
 }
 
 /* Body */
@@ -2409,6 +2424,10 @@ button,
 .tn-header-col.tn-menu-wrap .tn-menu-inner:hover::-webkit-scrollbar-thumb {
   background-color: var(--color-light);
   border-color: var(--color-light);
+}
+/* Header */
+.tn-section.tn-header-wrap {
+    border-color: var(--color-gray-light);
 }
 /* Header: Main Menu */
 .tn-section.tn-header-wrap {
@@ -2595,6 +2614,9 @@ button,
     color: var(--color-primary);
 }
 /* Footer */
+.tn-footer-main {
+    border-color: var(--color-gray-light);
+}
 .tn-footer-main,
 .tn-footer-bottom {
     background-color: var(--color-secondary);
