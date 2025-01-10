@@ -51,6 +51,8 @@ A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for doc
 
 ## Changelog
 
+### Version 1.0
+- Initial release.
 ### Version 0.9.8
 - Beta release.
 
