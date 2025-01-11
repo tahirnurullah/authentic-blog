@@ -1,10 +1,10 @@
 <?php 
 
-/** Automatically install and activate the TN GitHub Theme Updater plugin when the theme is activated **/
+/** Automatically install and activate main plugins when theme is activated **/
 
-function activate_tn_theme_updater_plugin() {
+function activate_main_plugins() {
     // Path to the folder containing the plugin
-    $plugin_dir = get_template_directory() . '/theme-plugins/tn-theme-updater';
+    $plugin_dir = get_template_directory() . '/bundle-plugins/tn-theme-updater';
 
     // Check if the plugin folder is already copied
     if ( file_exists( $plugin_dir ) && ! is_plugin_active( 'tn-theme-updater/tn-theme-updater.php' ) ) {
@@ -19,7 +19,7 @@ function activate_tn_theme_updater_plugin() {
         activate_plugin( 'tn-theme-updater/tn-theme-updater.php' );
     }
 }
-add_action( 'after_switch_theme', 'activate_tn_theme_updater_plugin' );
+add_action( 'after_switch_theme', 'activate_main_plugins' );
 
 
 /** Helper function to copy the directory and its contents **/
