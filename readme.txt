@@ -57,7 +57,7 @@ A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for doc
 
 **1.0.1:**
 - Improved Initial Release.
-- Add Support for WooCommerce.
+- Added Support for WooCommerce.
 
 **1.0.0:**
 - Initial Release.
