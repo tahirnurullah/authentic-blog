@@ -46,6 +46,11 @@ function tn_configuration() {
     add_editor_style( 'assets/css/editor-style.css' );
     // Register block styles (Gutenberg) for the theme
     add_theme_support( 'wp-block-styles' );
+    
+    // Add theme supports for WooCommerce plugin
+    if ( class_exists( 'WooCommerce' ) ) {
+        add_theme_support( 'woocommerce' );
+    }
 }
 add_action( 'after_setup_theme', 'tn_configuration', 0 );
 
