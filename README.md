@@ -53,8 +53,6 @@ A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for doc
 
 ### Version 1.0.0
 - Initial release.
-### Version 0.9.8
-- Beta release.
 
 ## License
 

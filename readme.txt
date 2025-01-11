@@ -51,7 +51,7 @@ A: Visit the theme's official page at https://ab.tahirnurullah.com/docs/ for doc
 
 == Changelog ==
 
-**1.0:**
+**1.0.0:**
 - Initial release.
 
 == License ==
